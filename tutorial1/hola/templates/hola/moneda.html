@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Moneda</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+
+	{% if num == 0 %}
+
+		<h1>Aguila</h1>
+
+	{% else %}
+
+		<h1>Sol</h1>
+
+	{% endif %}
+</body>
+</html>
